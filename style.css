@@ -1,0 +1,168 @@
+.conatiner {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.clints_said {
+    position: relative;
+    /* top: 5em; */
+    padding: 10px;
+    /* margin-bottom: 5.2em; */
+    background-size: cover;
+}
+
+.col {
+    cursor: pointer;
+    font-size: xxx-large;
+    border-radius: 61px;
+}
+
+.box-rap {
+    margin-top: 10%;
+    background-image: url("image/scienTech.jpg");
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+}
+
+#coordinator {
+    margin: inherit;
+    margin-left: 6%;
+}
+
+#row-box .row {
+    margin: inherit;
+    margin-left: 2%;
+}
+
+video {
+    width: 100%;
+}
+
+.card {
+    width: 24%;
+    margin: 4em 8em;
+}
+
+#devOp {
+    /* margin-left: 8.5%; */
+    position: relative;
+    left: 8%;
+}
+
+#e1 {
+    position: relative;
+    right: 12px;
+    box-shadow: 0px 1px 122px 8px whitesmoke
+}
+
+#e2 {
+    position: relative;
+    left: 12px;
+    box-shadow: 0px 1px 122px 8px whitesmoke
+}
+
+#e3 {
+    position: relative;
+    right: 12px;
+    box-shadow: 0px 1px 122px 8px whitesmoke
+}
+
+#e4 {
+    position: relative;
+    left: 12px;
+    box-shadow: 0px 1px 122px 8px whitesmoke;
+}
+
+.row {
+    font-family: ui-monospace;
+}
+
+.row a {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#fivth {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    box-shadow: 0px 1px 122px 8px whitesmoke
+}
+
+.section-title h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    position: relative;
+    top: 20px;
+}
+
+
+/* .card {
+    box-shadow: 0px 1px 122px 8px rgb(21, 18, 18);
+} */
+
+#co-1 {
+    box-shadow: 0px 1px 20px 8px rgb(85, 80, 80);
+}
+
+#co-2 {
+    box-shadow: 0px 1px 20px 8px rgb(85, 80, 80);
+}
+
+#co-3 {
+    box-shadow: 0px 1px 20px 8px rgb(85, 80, 80);
+}
+
+#co-4 {
+    box-shadow: 0px 1px 20px 8px rgb(85, 80, 80);
+}
+
+#devOp-box {
+    position: relative;
+    margin-left: 120px;
+}
+
+#dev-1 {
+    box-shadow: 0px 1px 20px 8px rgb(85, 80, 80);
+}
+
+#dev-2 {
+    box-shadow: 0px 1px 20px 8px rgb(85, 80, 80);
+}
+
+@media screen and (max-width:500px) {
+    .row {
+        margin: auto;
+        margin-left: 0%;
+    }
+    .col {
+        cursor: pointer;
+        font-size: small;
+        border-radius: 61px;
+    }
+    #row-box .row {
+        margin-left: 0;
+    }
+    #devOp {
+        margin-left: -6.2%;
+        justify-content: center;
+        position: relative;
+        left: 0%;
+    }
+    #contain {
+        display: unset;
+        margin: auto;
+    }
+    #devOp-box {
+        display: unset;
+    }
+    #coordinator {
+        margin: inherit;
+        margin-left: -6%;
+    }
+}
